@@ -1,0 +1,25 @@
+{
+  "name": "assistant-action-time",
+  "version": "1.0.0",
+  "description": "Time Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianMMcClain/assistant-action-time.git"
+  },
+  "author": "Bryan Friedman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BrianMMcClain/assistant-action-time/issues"
+  },
+  "homepage": "https://github.com/BrianMMcClain/assistant-action-time#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.81.0"
+  }
+}
